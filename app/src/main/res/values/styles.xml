@@ -1,0 +1,7 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Estilo de la aplicación predeterminado -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Otras configuraciones de estilo -->
+    </style>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".WelcomeActivity">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Empecemos!"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/welcomeMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="¡Bienvenido a la aplicación Pomodoro!"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/inspirationalQuoteTextView"
+        android:layout_width="243dp"
+        android:layout_height="74dp"
+        android:layout_below="@id/welcomeMessageTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="78dp"
+        android:text="La productividad es la clave del éxito."
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
